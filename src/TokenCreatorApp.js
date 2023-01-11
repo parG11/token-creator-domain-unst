@@ -1,7 +1,6 @@
 import UAuth from '@uauth/js';
 import {ethers} from 'ethers';
 import {ABI, bytecode} from './ContractDetails';
-import './TokenCreator.css';
 import {useState} from "react";
 
 const uauth = new UAuth({
